@@ -12,7 +12,7 @@ public class q2_csvstudentrecord {
     }
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        Strung csvLine = sc.nextLine;
+        Strung csvLine = sc.nextLine();
         parsestudentrecord(csvline);
     }
 }
