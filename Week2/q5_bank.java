@@ -32,11 +32,11 @@ public class q5_bank {
             }
         }
 
-        return "[" + bank + "] DATE: "
+        return "[" + bank + "] DATE:  "
                 + date.substring(0, 2) + "/"
                 + date.substring(2, 4) + "/"
                 + date.substring(4, 6)
-                + " | SEQ: " + seq;
+                + " | SEQ: " + seq; date.substring(2,4) + "/" + date.substring(0,2)
     }
 
     public static void main(String[] args) {
